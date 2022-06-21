@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #222222;
+}
+.logo {
+  height: 35px;
+  width: 35px;
+}
+.navs li {
+  list-style: none;
+}
+.nav-svg {
+  width: 20px;
+  fill: #888888;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #888888;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  height: 70px;
+  width: 100%;
+  border-bottom: 3px solid #3ec70b;
+  position: fixed;
+}
+.navs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 280px;
+}
+.navi {
+  padding-left: -250px;
+  margin-left: 70px;
+}
+.logo {
+  margin-left: 24px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+  gap: 60px;
+}
+.image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.details {
+  position: relative;
+}
+
+.item-name {
+  text-transform: uppercase;
+  font-size: 58px;
+  line-height: 56px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  bottom: 580px;
+  left: 580px;
+}
+.mobile {
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+  bottom: 550px;
+  left: 585px;
+  letter-spacing: 3px;
+}
+
+.right-arrow {
+  height: 18px;
+  fill: #3ec70b;
+}
+
+.additional-details {
+  position: absolute;
+  bottom: 510px;
+  left: 620px;
+  color: #fff;
+  font-size: 21px;
+}
+.additional-details2 {
+  position: absolute;
+  bottom: 510px;
+  left: 820px;
+  color: #fff;
+  font-size: 21px;
+}
+.laptop,
+.chair {
+  position: relative;
+}
+
+.blade {
+  position: absolute;
+  left: 500px;
+}
+
+.blade2 {
+  position: absolute;
+  bottom: 550px;
+  left: 490px;
+  letter-spacing: 4px;
+  font-size: 21px;
+}
+.chair2 {
+  position: absolute;
+  left: 610px;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.sub-div {
+  position: relative;
+}
+
+.one {
+  height: 570px;
+  width: 754x;
+  background-color: blue;
+  background: url('images/tribe-gaming-customs-b-950x580-desktop.jpg');
+  background-size: 754px 570px;
+  color: #fff;
+}
+
+.two {
+  height: 570px;
+  width: 754x;
+  background: url('images/barracuda-family-950x580-desktop.jpg');
+  background-size: 754px 570px;
+  background-color: green;
+}
+.three {
+  height: 570px;
+  width: 754x;
+  background-color: red;
+  background: url('images/new-razer-blade-15-2022-b-950x580-desktop.jpg');
+  background-size: 754px 570px;
+  color: #fff;
+}
+.four {
+  height: 570px;
+  width: 754x;
+  background: url('images/razer-viper-v2-pro-b-950x580-desktop.jpg');
+  background-size: 754px 570px;
+  background-color: yellow;
+}
+.five {
+  height: 570px;
+  width: 754x;
+  background: url('images/chroma-mania-specials-b-950x580-desktop.jpg');
+  background-size: 754px 570px;
+  background-color: pink;
+}
+.six {
+  height: 570px;
+  width: 754x;
+  background: url('images/ecolabel-b-950x580-desktop.jpg');
+  background-size: 754px 570px;
+  background-color: black;
+}
+
+.blade15 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  left: 175px;
+  top: 55px;
+}
+
+.blade-lap2 {
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  position: absolute;
+  letter-spacing: 1px;
+  left: 190px;
+  top: 110px;
+}
+.shop {
+  position: absolute;
+  font-weight: bold;
+  left: 310px;
+  top: 150px;
+}
+
+.barracuda {
+  position: absolute;
+  left: 120px;
+  top: 55px;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.living {
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  top: 110px;
+  left: 260px;
+  letter-spacing: 1px;
+}
+
+.shop2 {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  left: 310px;
+  top: 150px;
+}
+.buy {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  left: 450px;
+  top: 150px;
+}
+.shop3 {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  left: 280px;
+  top: 150px;
+}
+.buy2 {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  left: 410px;
+  top: 150px;
+}
+
+.mouse {
+  position: absolute;
+  left: 170px;
+  top: 55px;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.viper {
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  top: 110px;
+  left: 290px;
+}
+
+.shop4 {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  left: 250px;
+  top: 150px;
+}
+.buy3 {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  left: 400px;
+  top: 150px;
+}
+.chroma {
+  position: absolute;
+  left: 170px;
+  top: 55px;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.maniac {
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  top: 110px;
+  left: 215px;
+}
+.shop5 {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  left: 340px;
+  top: 150px;
+}
+.mice {
+  position: absolute;
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  top: 110px;
+  left: 145px;
+}
+
+.shop6 {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  left: 340px;
+  top: 150px;
+}
+.footer {
+  background-color: #000;
+}
+
+.footer-nav {
+  color: #999;
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.shops:first-child {
+  font-weight: 900;
+}
+.gamers {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3ec70b;
+  margin-top: 30px;
+}
+.gamers img {
+  height: 24px;
+  width: 24px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 10px;
+  position: relative;
+}
+
+.footnav {
+  list-style: none;
+  margin-top: 30px;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 55px;
+  background-color: #000;
+  color: #888888;
+}
